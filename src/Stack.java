@@ -1,33 +1,8 @@
-public class Stack<E> {
-
-
-    void push(){
-
-    };
-
-    //
-    E pop(){
-        E e = (E) new Object();
-        return e;
-    };
-
-    //
-    E peek(){
-        E e = (E) new Object();
-        return e;
-    }
-
-    //
-    int getSize(){
-        return 1;
-    }
-
-    //
-    boolean isEmpty(){
-
-        return true;
-    }
-
-
-
+public interface Stack<E> {
+    void push(E e);//入栈
+    E pop();//出栈
+    E peek();//获取栈顶元素
+    int getSize();//获取栈的数字个数
+    boolean isEmpty();
+    int getCapacity();//获取栈的容量
 }

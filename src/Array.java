@@ -39,7 +39,7 @@ public class Array<E> {
     // 获取
     E get(int index){
         if (index < 0 || index >= size)
-            throw new IllegalArgumentException("set failed,index is illegal");
+            throw new IllegalArgumentException("get failed,index is illegal");
         return data[index];
     }
 
@@ -64,7 +64,6 @@ public class Array<E> {
 
     // 在数组指定位置添加元素
     public void addIndex(int index, E e){
-        
         if (index < 0 || index > size)
             throw new IllegalArgumentException("AddIndex failed,index < 0 or index>=size");
         if (size == data.length)
@@ -82,6 +81,48 @@ public class Array<E> {
             newdata[j] = data[j];
         }
         data = newdata;
+    }
+
+    //查找数组中是否包含元素e
+    public  boolean contains(E e){
+        for (int i = 0; i < size; i++) {
+            if (data[i] == e) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //查找数组中元素e的索引，不存在则返回-1
+    public  int find(E e){
+        for (int i = 0; i < size; i++) {
+            if (data[i] == e) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    //删除指定位置的元素e,并返回删除的元素
+    public E remove(int index){
+        if (index < 0 || index > size)
+            throw new IllegalArgumentException("Remove failed,index < 0 or index>=size");
+        E res  = data[index];
+        for (int i = index + 1; i < size; i++){
+            data[i - 1] = data[i];
+        }
+        size--;
+        return res;
+    }
+
+    //删除数组中的第一个元素e
+    public E removeLast(){
+        return remove(size-1);
+    }
+
+    //删除数组中的最后一个元素e
+    public E removeFirst(){
+        return remove(0);
     }
 
     @Override
