@@ -1,3 +1,5 @@
+package com.datastructure;
+
 public class Array<E> {
     private E[] data;
     private int size;

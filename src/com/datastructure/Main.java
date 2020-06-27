@@ -1,3 +1,5 @@
+package com.datastructure;
+
 public class Main {
     public static void main(String[] args) {
         ArrayStack<Integer> array = new ArrayStack<Integer>();

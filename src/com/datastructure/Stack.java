@@ -1,3 +1,5 @@
+package com.datastructure;
+
 public interface Stack<E> {
     void push(E e);//入栈
     E pop();//出栈

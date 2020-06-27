@@ -1,3 +1,5 @@
+package com.datastructure;
+
 public class ArrayStack<E> implements Stack<E> {
     Array<E> array;
 
@@ -33,7 +35,6 @@ public class ArrayStack<E> implements Stack<E> {
     public void push(E e) {
         array.addLast(e);
     }
-
     @Override
     public E pop() {
         return array.removeLast();
