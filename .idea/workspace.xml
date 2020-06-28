@@ -1,19 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="491a6542-d264-4cc7-9932-e665fe23bc2d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="032a0706-1176-4c4f-bb0d-ceec6b8e852b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/datastructure/Array.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/datastructure/ArrayStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/datastructure/LinkedList$Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/datastructure/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/datastructure/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/datastructure/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/Mengniu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/Milk.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/Telunsu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/abstractfactory/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/abstractfactory/AbstractFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/abstractfactory/MilkFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/factorymethod/Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/factorymethod/FactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/factorymethod/MengniuFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/factorymethod/TelunsuFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/simplefactory/SimpleFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/simplefactory/SimpleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/singleton/Hungry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/singleton/ThreadSafeTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/gupao/designmodel/singleton/ThreadSafeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DataStructure/com/leetcode/BinarySearch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastructure/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastructure/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/datastructure/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/Mengniu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/Telunsu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/abstractfactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/abstractfactory/MilkFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/factorymethod/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/factorymethod/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/factorymethod/MengniuFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/factorymethod/TelunsuFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/simplefactory/SimpleFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/simplefactory/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/singleton/Hungry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/singleton/LazyOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/singleton/LazyThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/singleton/LazyTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/singleton/RegisterMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/singleton/Seriable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/gupao/designmodel/singleton/ThreadSafeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/leetcode/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/datastructure/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/datastructure/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" />
+>>>>>>> 403984a201b35b2c611c271df25fe72a779018ea
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="204" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -21,49 +78,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1bHw7TWxKmttbtObmwnnaKjWYIh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectId" id="1dwNodgdjFPhpv9SIZt3IIlR6fc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lenovo\Desktop\TheRoadToRome\src" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gupao.designmodel.singleton" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.SimpleFactory">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.datastructure.Main" />
-      <module name="DataStructure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.designmodel.simplefactory.SimpleFactory" />
+  <component name="RunManager">
+    <configuration name="ThreadSafeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.designmodel.singleton.ThreadSafeTest" />
       <module name="DataStructure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupao.designmodel.*" />
+          <option name="PATTERN" value="com.gupao.designmodel.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,8 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleFactory" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ThreadSafeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -83,10 +120,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="491a6542-d264-4cc7-9932-e665fe23bc2d" name="Default Changelist" comment="" />
-      <created>1588302159396</created>
+      <changelist id="032a0706-1176-4c4f-bb0d-ceec6b8e852b" name="Default Changelist" comment="" />
+      <created>1593332371582</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1588302159396</updated>
       <workItem from="1588302164998" duration="9141000" />
       <workItem from="1589589877892" duration="2689000" />
@@ -98,56 +136,61 @@
       <workItem from="1592920808476" duration="2588000" />
       <workItem from="1593139911336" duration="11280000" />
       <workItem from="1593255024048" duration="6324000" />
+=======
+      <updated>1593332371582</updated>
+      <workItem from="1593332373985" duration="4558000" />
+>>>>>>> 403984a201b35b2c611c271df25fe72a779018ea
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="1">
-          <value>
-            <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="roots">
-                    <value>
-                      <list>
-                        <option value="$PROJECT_DIR$" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
-    </option>
+  <component name="WindowStateProjectService">
+    <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593332703257">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1593332703257" />
+    <state width="1310" height="304" key="GridCell.Tab.0.bottom" timestamp="1593333617550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="304" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593333617550" />
+    <state width="1310" height="304" key="GridCell.Tab.0.center" timestamp="1593333617550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="304" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593333617550" />
+    <state width="1310" height="304" key="GridCell.Tab.0.left" timestamp="1593333617550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="304" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593333617550" />
+    <state width="1310" height="304" key="GridCell.Tab.0.right" timestamp="1593333617550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="304" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593333617550" />
+    <state width="1310" height="304" key="GridCell.Tab.1.bottom" timestamp="1593333617271">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="304" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593333617271" />
+    <state width="1310" height="304" key="GridCell.Tab.1.center" timestamp="1593333617271">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="304" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593333617271" />
+    <state width="1310" height="304" key="GridCell.Tab.1.left" timestamp="1593333617271">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="304" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593333617271" />
+    <state width="1310" height="304" key="GridCell.Tab.1.right" timestamp="1593333617271">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1310" height="304" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593333617271" />
+    <state x="604" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1593336091525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="604" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1593336091525" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructure$ThreadSafeTest.ic" NAME="ThreadSafeTest Coverage Results" MODIFIED="1593332596781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gupao.designmodel.singleton.*</FILTER>
+    </SUITE>
   </component>
 </project>
