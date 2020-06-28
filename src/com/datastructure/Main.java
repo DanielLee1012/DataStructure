@@ -1,11 +1,13 @@
+package com.datastructure;
+
 public class Main {
     public static void main(String[] args) {
-        Array<Integer> array = new Array<Integer>();
+        ArrayStack<Integer> array = new ArrayStack<Integer>();
         for (int i = 0; i < 10; i++) {
-            array.addLast(i);
+            array.push(i);
         }
         System.out.println(array);
-        array.addLast(666);
+        array.pop();
         System.out.println(array);
     }
 }
