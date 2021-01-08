@@ -1,6 +1,10 @@
 package com.datastructure;
 
-public class LinkedList<E> {
+/**
+ * 带有虚拟头结点的链表
+ * @param <E>
+ */
+public class LinkedListWithDummyHead<E> {
 
     private class Node{
         public E e;
@@ -17,11 +21,11 @@ public class LinkedList<E> {
         public  String toString(){return e.toString(); }
     }
 
-    private Node head;
+    private Node dummyhead;
     private int size;
 
-    public LinkedList(){
-        head = null;
+    public LinkedListWithDummyHead(){
+        dummyhead = new Node(null,null);
         size = 0;
     }
 
@@ -32,19 +36,12 @@ public class LinkedList<E> {
     public void add(E e,int index){
         if (index < 0 || index > size)
             throw new IllegalArgumentException("Add failed,Illegal index.");
-        //当往头结点插入时需要特殊处理
-        if (index == 0) {
-            head = new Node(e,head.next);
-        }
-        //从head开始遍历，所以是index-1
-        for (int i = 0; i < index -1; i++)
-            head = head.next;
+        Node pre = dummyhead;
+        //从dummyhead开始遍历，所以是index，虚拟头结点dummyhead指向了head
+        for (int i = 0; i < index; i++)
+            pre = pre.next;
 
-        Node node = new Node(e);
-        node.next = head.next;
-        head.next = node;
-
-
+        pre.next = new Node(e,pre.next);
         size ++;
     }
 
