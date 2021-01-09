@@ -45,6 +45,22 @@ public class Array<E> {
         return data[index];
     }
 
+    /**
+     * 获取最后一个元素
+     * @return
+     */
+    E getLast(){
+        return get(size-1);
+    }
+
+    /**
+     * 获取第一个元素
+     * @return
+     */
+    E getFirst(){
+        return get(0);
+    }
+
     // 判断数组是否为空
     public boolean isEmpty(){
         return size ==0;
